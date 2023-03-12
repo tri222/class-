@@ -5,18 +5,19 @@ scanf("%d",&a);
 scanf("%d",&b);	
 scanf("%d",&c);	
 
-if (a>c && a>b )
+if (a<c && a<b )
 { 
- printf("a is greater");
+ printf("a is smaller");
 }
 
-else if (b>c && b>a)
+else if (b<c && b<a)
 {
 
- printf("b is greater");
+ printf("b is smaller");
 }
 else
 {
-	printf("c is greater");
+	printf("c is smaller");
 }
 }
+
